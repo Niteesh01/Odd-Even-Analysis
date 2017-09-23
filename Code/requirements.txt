@@ -1,0 +1,20 @@
+As part of the visualizations we used the community edition of plotly an online tool
+The community edition has a limitation of 250 requests per day.
+Therefore we are providing two login credentials for plotly
+
+Line 5 and 6 all code files can use either one of this credentials to login:-
+
+tls.set_credentials_file(username='Niteesh', api_key='bSrAzhqaQbMzL3r2Q3pl')
+py.sign_in('Niteesh', 'bSrAzhqaQbMzL3r2Q3pl')
+
+tls.set_credentials_file(username='paragjuneja', api_key='ZBX9Wg9JXmnmlS0H2m8q')
+py.sign_in('paragjuneja', 'ZBX9Wg9JXmnmlS0H2m8q')
+
+matplotlib==1.5.3
+numpy==1.11.2
+pandas==0.19.0
+plotly==1.12.9
+pyparsing==2.1.10
+python-dateutil==2.5.3
+scipy==0.16.1
+
